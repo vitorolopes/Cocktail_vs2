@@ -1,6 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { useStateContext } from '../context/StateContextProvider';
+
 
 const CocktailList = () => {
+
+  const {cocktailsData} = useStateContext();
+  console.log(cocktailsData);
+
   return (
     <div className='section'>
         <div className="section-title">
