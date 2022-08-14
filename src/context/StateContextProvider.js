@@ -29,7 +29,8 @@ export const StateContextProvider = ( {children }) => {
     return(
         <StateContext.Provider
             value = {{
-                cocktailsData
+                cocktailsData,
+                isLoading
             }}
         >
             { children }
