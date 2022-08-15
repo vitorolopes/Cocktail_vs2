@@ -11,7 +11,7 @@ const Cocktail = ({idDrink, strAlcoholic, strDrink,
             <h4>{strGlass}</h4>
             <p>{strAlcoholic}</p>
             <button className='btn btn-primary'>
-                <Link to={`cocktails/${idDrink}`}>
+                <Link to={`cocktail/${idDrink}`}>
                     details
                 </Link>
             </button>
