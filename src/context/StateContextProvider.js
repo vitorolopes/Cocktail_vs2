@@ -17,7 +17,7 @@ export const StateContextProvider = ( {children }) => {
       try{
         const res = await fetch(`${baseUrl}search.php?s=${searchTerm}`)
         const data = await res.json()
-        console.log(data.drinks)
+//        console.log(data.drinks)
         setCocktailsData(data.drinks)
         setIsLoading(false)
       }catch (error) {
@@ -34,7 +34,7 @@ export const StateContextProvider = ( {children }) => {
     setIsLoading(true)
     const res = await fetch(`${baseUrl}lookup.php?i=${id}`);
     const data = await res.json();
-    console.log(data)
+//    console.log(data)
     setDetailsData(data.drinks)
     setIsLoading(false)
   }
