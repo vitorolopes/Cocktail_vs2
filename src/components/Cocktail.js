@@ -21,3 +21,6 @@ const Cocktail = ({idDrink, strAlcoholic, strDrink,
 }
 
 export default Cocktail
+
+
+// TODO: Create Cocktail Details

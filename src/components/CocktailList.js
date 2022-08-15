@@ -7,7 +7,7 @@ import Loading from './Loading'
 const CocktailList = () => {
 
   const {cocktailsData, isLoading} = useStateContext();
-  console.log(cocktailsData);
+ // console.log(cocktailsData);
 
   if(isLoading) return <Loading/>
 
